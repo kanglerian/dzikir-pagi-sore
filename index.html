@@ -115,6 +115,7 @@
 
     function updateUI() {
       const list = dataDzikir[currentMode];
+      console.log("Current Mode:", currentMode, "List Length:", list ? list.length : 0);
       if (!list || list.length === 0) return;
 
       const item = list[currentIndex];
@@ -122,7 +123,7 @@
       document.getElementById('app-title').innerText = `Dzikir ${currentMode === 'pagi' ? 'Pagi' : 'Sore'}`;
       document.getElementById('judul-dzikir').innerText = item.judul;
       document.getElementById('arabic-text').innerText = item.arab;
-      document.getElementById('latin-text').innerText = item.latin || '';
+      // document.getElementById('latin-text').innerText = item.latin || '';
       document.getElementById('translation-text').innerText = item.arti;
       document.getElementById('dzikir-index').innerText = `Dzikir ${currentIndex + 1} dari ${list.length}`;
       
