@@ -55,7 +55,7 @@
       
       <div id="arabic-text" class="arabic text-3xl leading-relaxed text-right text-slate-800"></div>
       
-      <div id="latin-text" class="text-emerald-600 text-xs font-semibold italic leading-relaxed border-l-2 border-emerald-200 pl-3"></div>
+      <!-- <div id="latin-text" class="text-emerald-600 text-xs font-semibold italic leading-relaxed border-l-2 border-emerald-200 pl-3"></div> -->
       
       <div class="text-slate-600 text-sm leading-relaxed border-t pt-4">
         <p id="translation-text"></p>
@@ -85,7 +85,7 @@
 
   <footer class="p-6 text-center text-slate-400 text-xs">
     <p id="dzikir-index">Memuat data...</p>
-    <p class="mt-1 opacity-50">Sumber: Hisnul Muslim</p>
+    <p class="mt-1 opacity-50 italic">Sumber: Hisnul Muslim Syaikh Sa'id al-Qahthani</p>
   </footer>
 
   <script>
@@ -98,12 +98,12 @@
     // 1. LOAD DATA DARI JSON
     async function loadData() {
       try {
-        const response = await fetch('dzikir.json');
+        const response = await fetch('dzikr.json');
         dataDzikir = await response.json();
         initApp();
       } catch (error) {
         console.error("Gagal memuat JSON:", error);
-        document.getElementById('arabic-text').innerText = "Gagal memuat data. Pastikan file dzikir.json tersedia.";
+        document.getElementById('arabic-text').innerText = "Gagal memuat data. Pastikan file dzikr.json tersedia.";
       }
     }
 
