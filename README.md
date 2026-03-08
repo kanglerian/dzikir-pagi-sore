@@ -45,6 +45,17 @@ Buka aplikasi langsung melalui browser kamu:
 
 ---
 
+## 📚 Sumber Referensi & Data
+
+Seluruh konten dzikir dalam aplikasi ini merujuk pada:
+- **Kitab:** *Hisnul Muslim* (Perisai Seorang Muslim)
+- **Penulis:** Syaikh Sa'id bin 'Ali bin Wahf al-Qahthani *rahimahullah*
+
+Data disajikan dalam format JSON melalui:
+- **API Source:** [API Dzikir Pagi Petang](https://github.com/kanglerian/api-dzikir-pagi-petang) oleh @kanglerian.
+
+---
+
 ## 📜 Lisensi & Penggunaan
 
 Proyek ini bersifat **Open Source** dan bebas digunakan atau dikembangkan kembali (**FREE**).
