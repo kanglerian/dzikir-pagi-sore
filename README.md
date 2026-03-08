@@ -1,15 +1,15 @@
-# 📿 Dzikir Pagi & Sore App (PWA)
+# 📿 Dzikir Pagi & Petang App (PWA)
 
 [![Status: Live](https://img.shields.io/badge/Status-Live-emerald.svg)]()
 [![PWA: Ready](https://img.shields.io/badge/PWA-Ready-orange.svg)]()
 
-Aplikasi web sederhana, ringan, dan responsif untuk membantu kaum muslimin melaksanakan dzikir pagi dan sore sesuai sunnah. Aplikasi ini dibangun dengan teknologi **Progressive Web App (PWA)** sehingga dapat diinstal di perangkat Android maupun iOS tanpa melalui App Store/Play Store.
+Aplikasi web sederhana, ringan, dan responsif untuk membantu kaum muslimin melaksanakan dzikir pagi dan petang sesuai sunnah. Aplikasi ini dibangun dengan teknologi **Progressive Web App (PWA)** sehingga dapat diinstal di perangkat Android maupun iOS tanpa melalui App Store/Play Store.
 
 ---
 
 ## 🌐 Live Demo
 Buka aplikasi langsung melalui browser kamu:
-👉 **[http://dzikir-pagi-sore.kodelabo.com/](http://dzikir-pagi-sore.kodelabo.com/)**
+👉 **[https://dzikir-pagi-petang.kodelabo.com/](https://dzikir-pagi-petang.kodelabo.com/)**
 
 ---
 
@@ -18,7 +18,7 @@ Buka aplikasi langsung melalui browser kamu:
 - **Mode Offline:** Tetap bisa digunakan meskipun tanpa koneksi internet setelah sekali buka.
 - **Auto-Update:** Mendapatkan pembaruan konten secara otomatis saat terhubung internet.
 - **Tasbih Digital:** Hitungan otomatis dengan getaran (haptic feedback) pada perangkat yang mendukung.
-- **Smart Notification:** Pengingat waktu dzikir pagi dan sore.
+- **Smart Notification:** Pengingat waktu dzikir pagi dan petang.
 - **Dark Mode Friendly:** Nyaman di mata untuk penggunaan waktu subuh atau petang.
 
 ---
@@ -70,6 +70,6 @@ Proyek ini bersifat **Open Source** dan bebas digunakan atau dikembangkan kembal
 ---
 
 ### 🌿 Kutipan
-> *"Barangsiapa yang membaca dzikir ini di pagi hari dengan penuh keyakinan lalu ia meninggal pada hari itu sebelum sore hari, maka ia termasuk penghuni surga..."* **(HR. Bukhari)**
+> *"Barangsiapa yang membaca dzikir ini di pagi hari dengan penuh keyakinan lalu ia meninggal pada hari itu sebelum petang hari, maka ia termasuk penghuni surga..."* **(HR. Bukhari)**
 
 ---
