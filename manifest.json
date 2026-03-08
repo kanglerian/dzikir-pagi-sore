@@ -1,15 +1,25 @@
 {
   "name": "Dzikir Pagi Sore App",
   "short_name": "Dzikir",
-  "start_url": ".",
+  "description": "Aplikasi panduan Dzikir Pagi dan Petang berdasarkan Al-Qur'an dan Sunnah (Hisnul Muslim).",
+  "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#059669",
+  "categories": ["education", "lifestyle", "books"],
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/2972/2972531.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/128/2972/2972531.png",
+      "sizes": "128x128",
       "type": "image/png"
     }
-  ]
+  ],
+  "author": "Lerian"
 }
